@@ -2,6 +2,6 @@ nav{
     background: #FFFF;
 }
 nav .nav-bar .nav-list-left{
-/* display: inline; */
+display: inline;
 list-style-type: none
 }
