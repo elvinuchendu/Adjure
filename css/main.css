@@ -30,6 +30,10 @@ header nav ul.nav-list-left li.nav-item a{
     text-decoration: none;
 }
 
+header nav ul.nav-list-left li.nav-item a:hover{
+    color: #999;
+}
+
 
 header nav .login-container{
     display: flex;
@@ -43,6 +47,10 @@ header nav ul.nav-list-right{
     margin-right: 20px;
     align-items: center;
 }
+header nav ul.nav-list-right li.login a:hover{
+    color: #999;
+}
+
 
 header nav ul.nav-list-right li.register{
     justify-content: space-between;
