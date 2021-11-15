@@ -1,7 +1,9 @@
 /* NAVIGATION MENU */
 
 header nav{
-   width: 100%;
+   width: 90%;
+   max-width: 1400px;
+   margin: 0 auto;
    display: flex;
    height: 65px;
    background: #fff;
@@ -28,6 +30,7 @@ header nav ul.nav-list-left li.nav-item {
 header nav ul.nav-list-left li.nav-item a{
     color: #4a4a4a;
     text-decoration: none;
+    padding: 5px;
 }
 
 header nav ul.nav-list-left li.nav-item a:hover{
@@ -44,9 +47,12 @@ header nav .login-container{
 header nav ul.nav-list-right{
     display: flex;
     gap: 30px;
-    margin-right: 20px;
     align-items: center;
 }
+header nav ul.nav-list-right li.login a{
+    padding: 5px;
+}
+
 header nav ul.nav-list-right li.login a:hover{
     color: #999;
 }
